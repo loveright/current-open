@@ -8,8 +8,13 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://www.notion.so/*"],
-      "js": ["content.js"]
+      "matches": [
+        "https://www.notion.so/*",
+        "https://note.youdao.com/*"
+      ],
+      "js": ["content.js"],
+      "all_frames": true,
+      "run_at": "document_start"
     }
   ]
 }
