@@ -8,7 +8,18 @@ Turn any web page into your local project launcher.
 
 ## 🚀 Demo
 
-![demo](./demo.gif)
+- Launch IntelliJ IDEA, WebStorm, GoLand
+![open_with_idea](https://github.com/user-attachments/assets/9bbfa434-10cb-41c0-a914-782845a02792)
+- Launch Zotero
+![open_with_zetero](https://github.com/user-attachments/assets/86fae6e4-1b70-4295-a6bf-3fc8f29ee180)
+- Open local files
+![open_excel](https://github.com/user-attachments/assets/300ed4ac-8114-4421-a310-a27f65547d0d)
+- Open local folders
+![open_folder](https://github.com/user-attachments/assets/f0984a8c-17d2-4418-917b-0c744a0ea453)
+- Generate Project Links
+![generate_idea_link](https://github.com/user-attachments/assets/9e21dbec-1b5e-47aa-97f8-583bff96eaec)
+- Generate Zetero Links
+![generate_zetero_link](https://github.com/user-attachments/assets/663b286a-e68c-4a05-bac2-a5975d9351dd)
 
 ## 🤔 Why?
 
