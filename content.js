@@ -47,6 +47,28 @@ function handleLinkClick(e) {
 
         window.location.href = protocolUrl;
     }
+    const allowedSchemes = ["zotero"];
+
+    if (type === "protocol") {
+        const uri = decodeURIComponent(url.searchParams.get("uri"));
+
+        try {
+            const parsed = new URL(uri);
+            const scheme = parsed.protocol.replace(":", "");
+
+            if (!allowedSchemes.includes(scheme)) {
+                console.warn("Blocked protocol:", scheme);
+                return;
+            }
+
+            window.location.assign(uri);
+        } catch (err) {
+            console.error("Invalid URI", err);
+        }
+
+        return;
+    }
+
 }
 
 // 使用捕获阶段拦截点击
