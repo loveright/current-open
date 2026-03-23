@@ -55,7 +55,7 @@ Download from:
 ### 2️⃣ Install Native Host
 
 Download the latest release from:
-👉 https://github.com/yourname/current-opener/releases
+👉 https://github.com/loveright/current-open/releases
 
 Run the installer and select your IDE.
 
